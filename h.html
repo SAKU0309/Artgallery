@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Menu Styling</title>
+    <style>
+       
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.start-menu {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.start-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-menu ul li {
+    margin: 0 10px;
+}
+.start-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.start-menu ul li a:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <div class="start-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#create">Create</a></li>
+            <!-- Add more menu items as needed -->
+        </ul>
+    </div>
+</body>
+</html>
